@@ -7,7 +7,7 @@
 (package-initialize)
 
 ;; auto install missing packages 
-(setq package-list '(ido magit ivy))
+(setq package-list '(ido magit ivy json-mode))
 
 (unless package-archive-contents
   (package-refresh-contents))
